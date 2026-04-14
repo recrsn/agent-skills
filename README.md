@@ -5,13 +5,13 @@ A collection of agent skills for Claude Code and 40+ other AI coding tools.
 ## Install
 
 ```bash
-npx skills add recrsn/claude-plugins
+npx skills add recrsn/agent-skills
 ```
 
 Or install a specific skill:
 
 ```bash
-npx skills add recrsn/claude-plugins --skill deslop
+npx skills add recrsn/agent-skills --skill deslop
 ```
 
 ## Skills

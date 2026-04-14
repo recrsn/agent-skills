@@ -16,7 +16,7 @@ skills/<skill-name>/
 ### Key concepts
 
 - **Skill**: A `SKILL.md` file with YAML frontmatter (`name`, `description`, `allowed-tools`) followed by the full prompt/instructions the agent will execute.
-- **Install**: `npx skills add recrsn/claude-plugins` installs all skills; `--skill <name>` installs one.
+- **Install**: `npx skills add recrsn/agent-skills` installs all skills; `--skill <name>` installs one.
 
 ### Current skills
 
@@ -37,6 +37,7 @@ skills/<skill-name>/
 ## Adding a new skill
 
 1. Create `skills/<skill-name>/SKILL.md` with frontmatter:
+
    ```yaml
    ---
    name: skill-name
@@ -44,4 +45,5 @@ skills/<skill-name>/
    allowed-tools: <comma-separated tool list>
    ---
    ```
+
 2. Add a one-line entry to the skills table in `README.md` and this file.
